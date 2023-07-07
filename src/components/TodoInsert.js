@@ -32,18 +32,20 @@ const TodoInsert = ({onInsert}) => {
 
 const TodoInserWrapper = styled.form`
   display : flex;
-  background : #495057;
+  margin: 5px;
+  border: 1px solid #495057;
+  border-radius: 5px;
   
   input{
     background : none;
     outline : none;
     border : none;
     padding : 0.5rem;
-    font-size : 1.125rem;
+    font-size : 16px;
     line-height : 1.5;
     color : #fff;
     &::placeholder {
-      color : #6dd2e6;
+      color : #334455;
     }
     flex : 1;
   }
@@ -54,7 +56,7 @@ const TodoInserWrapper = styled.form`
     border : none;
     color : #fff;
     padding : 1rem;
-    font-size : 1.125rem;
+    font-size : 16px;
     cursor : pointer;
     transition : all 0.2s;
     &:hover{
